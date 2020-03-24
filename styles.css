@@ -30,13 +30,28 @@ a:hover{
     height: 30px;
 }
 
-input[type="text"] {
-    border-radius: 35px;
-    border: none;
-    margin: 10px;
+.input-container {
+    position:relative;
+    margin:10px 30%;
+    background:#ddd;
+    direction: rtl;
     width: 40%;
-    padding: 10px;
-    box-shadow:0 0 5px #ccc;
+}
+
+.input-field {
+    height:40px;
+    border-radius: 25%;
+    margin-left: 80px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.input-icon {
+    position: absolute;
+    bottom: 0px;
+    right: 90%;
+    width:24px;
+    height:24px;
 }
 
 button {
