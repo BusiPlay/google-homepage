@@ -30,29 +30,48 @@ a:hover{
     height: 30px;
 }
 
+input:focus {
+    outline:none;
+}
+
+
 .input-container {
     position:relative;
     margin:10px 30%;
-    background:#ddd;
-    direction: rtl;
+    background:#fff;
+    direction: ltr;
     width: 40%;
 }
 
 .input-field {
-    height:40px;
-    border-radius: 25%;
-    margin-left: 80px;
-    padding-right: 30px;
+    height: 40px;
+    border-radius: 35px;
+    border: none;
     width: 100%;
+    padding-left: 45px;
+    padding-right: 45px;
+    box-shadow:0 0 5px #ccc;
 }
 
-.input-icon {
+
+#search-icon {
     position: absolute;
-    bottom: 0px;
-    right: 90%;
-    width:24px;
-    height:24px;
+    top: 30%;
+    left: 10px;
+    width: 5%;
+    height: 5%;
 }
+
+#voice-search-icon {
+    position: absolute;
+    top: 30%;
+    right: 1em;
+    top: 7px; 
+    width: 1.7em;
+    height: 65%;
+}
+
+
 
 button {
     margin: 0.3em;
