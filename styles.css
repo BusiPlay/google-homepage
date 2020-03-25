@@ -136,3 +136,26 @@ button {
     height: 2.5em;
     width: 9em;
 }
+
+.footer {
+    background-color: #eee;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 2.3em;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.footer a {
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 10px 5px 10px 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-right {
+    float: right;
+}
