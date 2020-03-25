@@ -1,3 +1,51 @@
+.navbar {
+    padding-top: 5px;
+}
+.navbar span {
+    float: left;
+    text-align: center;
+    padding: 13px 5px 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.navbar-right {
+    float: right;
+}
+
+.navbar a:hover span{
+    text-decoration: underline;
+}
+
+.navbar img {
+    height: 24px;
+    width: 24px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-right: 10px;    
+}
+
+.nav-button {
+    padding: 5px 0px 0px 0px;
+    float: right;
+}
+
+.nav-button a span{
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px 8px 15px;
+    font-size: 13px;
+    background-color: #4285f4;
+    float: right;
+    border-radius: 5%;
+}
+
+.nav-button a:hover span{
+    text-decoration: none;
+}
+
 .center {
     margin: 0 auto;
     text-align: center;
@@ -11,7 +59,10 @@
 }
 
 #logo {
-    width: 20%;
+    margin-top: 10em;
+    margin-left: 8em;
+    margin-bottom: 1em;
+    width: 25%;
 }
 
 a {
@@ -72,7 +123,9 @@ input:focus {
     height: 65%;
 }
 
-
+.row {
+    text-align: center;
+}
 
 button {
     margin: 0.3em;
